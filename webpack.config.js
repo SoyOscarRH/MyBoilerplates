@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './Code/Pages/App/App.jsx',
+    entry: './Code/Pages/App/index.jsx',
     output: {
         path: __dirname + '/Distribution',
         publicPath: '/',
