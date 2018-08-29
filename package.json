@@ -1,0 +1,35 @@
+{
+  "name": "soyoscarrh_boilerplate",
+  "version": "0.1.0",
+  "description": "Template description",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress -p --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch",
+    "stats": "webpack --profile     --config webpack.config.js --json > Stats.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoyOscarRH/React-Babel-Webpack-Typescript-Boilerplate.git"
+  },
+  "author": "SoyOscarRH",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/SoyOscarRH/React-Babel-Webpack-Typescript-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/SoyOscarRH/React-Babel-Webpack-Typescript-Boilerplate#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
