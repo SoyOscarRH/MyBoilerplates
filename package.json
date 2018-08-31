@@ -40,11 +40,12 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.0.0",
+    "@types/materialize-css": "^1.0.4",
     "@types/react-router-dom": "^4.3.0",
     "babel-loader": "^8.0.0",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1"
-  }
+}
 }
