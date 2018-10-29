@@ -2,50 +2,43 @@
   "name": "soyoscarrh_boilerplate",
   "version": "0.1.0",
   "description": "Template description",
-  "main": "index.js",
+  "main": "Code/Pages/App/index.tsx",
   "scripts": {
-    "build": "    webpack --progress -p --config webpack.config.js",
-    "dev-build": "webpack --progress -d --config webpack.config.js",
-    "watch": "    webpack --progress -d --config webpack.config.js --watch",
-    "stats": "    webpack --profile     --config webpack.config.js --json > Stats.json"
+    "build": "webpack --progress -p --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch",
+    "stats": "webpack --profile     --config webpack.config.js --json > Stats.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SoyOscarRH/React-Babel-Webpack-Typescript-Boilerplate.git"
+    "url": "git+https://github.com/CompilandoConocimiento/MyReactBoilerplate.git"
   },
   "author": "SoyOscarRH",
   "license": "GPL-2.0-only",
   "bugs": {
-    "url": "https://github.com/SoyOscarRH/React-Babel-Webpack-Typescript-Boilerplate/issues"
+    "url": "https://github.com/CompilandoConocimiento/MyReactBoilerplate/issues"
   },
-  "homepage": "https://github.com/SoyOscarRH/React-Babel-Webpack-Typescript-Boilerplate#readme",
+  "homepage": "https://github.com/CompilandoConocimiento/MyReactBoilerplate",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-syntax-typescript": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.0.0",
-    "@types/node": "^10.9.3",
-    "@types/react": "^16.4.13",
-    "@types/react-dom": "^16.0.7",
-    "@types/webpack": "^4.4.11",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/materialize-css": "^1.0.5",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^0.23.0",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.0.3",
+    "typescript": "^3.1.3",
     "typings-for-css-modules-loader": "^1.7.0",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.0.0",
-    "@types/materialize-css": "^1.0.4",
-    "@types/react-router-dom": "^4.3.0",
-    "babel-loader": "^8.0.0",
-    "materialize-css": "^1.0.0-rc.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-router-dom": "^4.3.1"
-}
+    "materialize-css": "^1.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
 }
