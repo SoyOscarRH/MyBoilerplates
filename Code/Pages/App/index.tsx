@@ -1,39 +1,21 @@
-// ======================================================================
-// ============          WEB APP IN REACT           =====================
-// ======================================================================
-
-import React from "react"
+import React, { FunctionComponent } from "react"
 import ReactDOM from "react-dom"
-import M from "materialize-css"
 
+const App: FunctionComponent = () => (
+    <main>
+        <br />
 
-class App extends React.Component {
+        Hi World 
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
-    constructor(props) {
-        super (props)
-    }
- 
-
-    render() {
-
-        return (
-            <main>
-                <br />
-
-                Hi World 
-                
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-
-            </main>
-        )
-    }
-    
-}
+    </main>
+)
 
 
 ReactDOM.render(<App />, document.getElementById("ReactApp"))
