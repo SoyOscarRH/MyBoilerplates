@@ -4,10 +4,9 @@
   "description": "Template description for @SoyOscarRH projects",
   "main": "Code/Pages/App/index.tsx",
   "scripts": {
-    "build": "    webpack --progress -p --config webpack.config.ts",
-    "dev-build": "webpack --progress -d --config webpack.config.ts",
-    "watch": "    webpack --progress -d --config webpack.config.ts --watch",
-    "stats": "    webpack --profile     --config webpack.config.ts --json > stats.json"
+    "build": "webpack --progress -p --config webpack.config.ts",
+    "watch": "webpack --progress -d --config webpack.config.ts --watch",
+    "stats": "webpack --profile     --config webpack.config.ts --json > stats.json"
   },
   "repository": {
     "type": "git",
@@ -31,10 +30,10 @@
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
     "@types/webpack": "^4.4.31",
-    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
     "babel-loader": "^8.0.6",
-    "css-loader": "^1.0.1",
+    "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-react": "^7.13.0",
