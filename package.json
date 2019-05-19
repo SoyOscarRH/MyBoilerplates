@@ -1,7 +1,7 @@
 {
   "name": "soyoscarrh_boilerplate",
-  "version": "0.1.0",
-  "description": "Template description",
+  "version": "0.2.0",
+  "description": "Template description for @SoyOscarRH projects",
   "main": "Code/Pages/App/index.tsx",
   "scripts": {
     "build": "    webpack --progress -p --config webpack.config.ts",
@@ -13,11 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/SoyOscarRH/MyReactBoilerplate.git"
   },
-  "keywords": [
-    "react",
-    "materializecss",
-    "personal"
-  ],
   "author": "SoyOscarRH",
   "license": "GPL-2.0-only",
   "bugs": {
@@ -25,32 +20,32 @@
   },
   "homepage": "https://github.com/SoyOscarRH/MyReactBoilerplate",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-syntax-typescript": "^7.2.0",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/plugin-syntax-typescript": "^7.3.3",
+    "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.1.0",
+    "@babel/preset-typescript": "^7.3.3",
     "@types/materialize-css": "^1.0.6",
-    "@types/node": "^10.12.18",
-    "@types/react": "^16.7.17",
-    "@types/react-dom": "^16.0.11",
-    "@types/webpack": "^4.4.22",
-    "babel-loader": "^8.0.4",
+    "@types/node": "^10.14.7",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@types/webpack": "^4.4.31",
+    "babel-loader": "^8.0.6",
     "css-loader": "^1.0.1",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "ts-node": "^7.0.1",
-    "typescript": "^3.2.2",
+    "typescript": "^3.4.5",
     "typings-for-css-modules-loader": "^1.7.0",
-    "webpack": "^4.28.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
     "materialize-css": "^1.0.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
