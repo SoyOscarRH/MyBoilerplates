@@ -1,11 +1,11 @@
 import { Configuration } from "webpack"
 
 const Configuration: Configuration = {
-  entry: __dirname + "/Code/App/",
+  entry: __dirname + "/Code/App",
   output: {
-    path: __dirname + "/Distribution/",
-    publicPath: "Webpage/Distribution/",
-    filename: "[name].bundle.js",
+    path: __dirname + "/Distribution",
+    publicPath: "/",
+    filename: "bundle.js",
   },
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".css"],
@@ -20,6 +20,7 @@ const Configuration: Configuration = {
       {
         test: /\.css$/,
         use: [
+          { loader: 'style-loader' },
           {
             loader: "dts-css-modules-loader",
             options: {
@@ -31,7 +32,6 @@ const Configuration: Configuration = {
             options: {
               camelCase: true,
               localIdentName: "[name]_[local]_[hash:base64]",
-              exportOnlyLocals: true,
               sourceMap: true,
               modules: true,
             },
