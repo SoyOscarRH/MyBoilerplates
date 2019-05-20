@@ -1,7 +1,7 @@
 import { Configuration } from "webpack"
 
 const Configuration: Configuration = {
-  entry: "./Code/App/index.tsx",
+  entry: __dirname + "/Code/App/",
   output: {
     path: __dirname + "/Distribution/",
     publicPath: "Webpage/Distribution/",
@@ -20,16 +20,20 @@ const Configuration: Configuration = {
       {
         test: /\.css$/,
         use: [
-          "style-loader",
           {
-            loader: "typings-for-css-modules-loader?&namedExport&camelCase",
+            loader: "dts-css-modules-loader",
             options: {
-              modules: true,
-              camelCase: true,
               namedExport: true,
+            },
+          },
+          {
+            loader: "css-loader",
+            options: {
+              camelCase: "only",
               localIdentName: "[name]_[local]_[hash:base64]",
+              exportOnlyLocals: true,
               sourceMap: true,
-              minimize: true,
+              modules: true,
             },
           },
         ],

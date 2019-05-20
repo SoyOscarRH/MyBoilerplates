@@ -4,7 +4,7 @@ import ReactDOM from "react-dom"
 const App: FunctionComponent = () => (
   <main>
     <br />
-    Hi World
+    Hi little world
     <br />
     <br />
     <br />
