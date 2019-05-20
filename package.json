@@ -2,7 +2,7 @@
   "name": "soyoscarrh_boilerplate",
   "version": "0.2.0",
   "description": "Template description for @SoyOscarRH projects",
-  "main": "Code/Pages/App/index.tsx",
+  "main": "Code/Pages/App/index",
   "scripts": {
     "build": "webpack --progress -p --config webpack.config.ts",
     "watch": "webpack --progress -d --config webpack.config.ts --watch",
