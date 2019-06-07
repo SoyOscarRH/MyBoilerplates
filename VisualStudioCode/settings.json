@@ -1,0 +1,93 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+      "activityBarBadge.background": "#388E3C",
+      "list.activeSelectionForeground": "#388E3C",
+      "list.inactiveSelectionForeground": "#388E3C",
+      "list.highlightForeground": "#388E3C",
+      "scrollbarSlider.activeBackground": "#388E3C50",
+      "editorSuggestWidget.highlightForeground": "#388E3C",
+      "textLink.foreground": "#388E3C",
+      "progressBar.background": "#388E3C",
+      "pickerGroup.foreground": "#388E3C",
+      "tab.activeBorder": "#388E3C",
+      "notificationLink.foreground": "#388E3C",
+      "editorWidget.resizeBorder": "#388E3C",
+      "editorWidget.border": "#388E3C",
+      "settings.modifiedItemIndicator": "#388E3C",
+      "settings.headerForeground": "#388E3C",
+      "panelTitle.activeBorder": "#388E3C",
+      "breadcrumb.activeSelectionForeground": "#388E3C",
+      "menu.selectionForeground": "#388E3C",
+      "menubar.selectionForeground": "#388E3C"
+  },
+  "materialTheme.accent": "Breaking Bad",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+  ],
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.fontSize": 14,
+  "latex-workshop.latex.clean.fileTypes": [
+      "*.aux",
+      "*.bbl",
+      "*.blg",
+      "*.idx",
+      "*.ind",
+      "*.lof",
+      "*.lot",
+      "*.out",
+      "*.toc",
+      "*.acn",
+      "*.acr",
+      "*.alg",
+      "*.glg",
+      "*.glo",
+      "*.thm",
+      "*.gls",
+      "*.ist",
+      "*.fls",
+      "*.gz",
+      "*.log",
+      "*.fdb_latexmk"
+  ],
+  "workbench.statusBar.feedback.visible": false,
+  "C_Cpp.updateChannel": "Insiders",
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "latex-workshop.latex.autoBuild.run": "never",
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.foldingStrategy": "indentation",
+  "explorer.confirmDelete": false,
+  "files.autoSaveDelay": 5000,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "[cpp]": {
+      "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "explorer.confirmDragAndDrop": false,
+}
