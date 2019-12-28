@@ -1,2 +1,8 @@
+.DS_Store
 *.DS_Store
+**/.DS_Store
+
 *.out
+node_modules/*
+
+FrontEnd/node_modules/*
