@@ -1,6 +1,18 @@
+# Mac OS files
 .DS_Store
 *.DS_Store
 **/.DS_Store
 
+# Outs
 *.out
+
+.in
+*.in
+**/.in
+
+.out
+*.out
+**/.out
+
+# Node
 node_modules/*
