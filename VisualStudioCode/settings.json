@@ -1,28 +1,27 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
-      "activityBarBadge.background": "#388E3C",
-      "list.activeSelectionForeground": "#388E3C",
-      "list.inactiveSelectionForeground": "#388E3C",
-      "list.highlightForeground": "#388E3C",
-      "scrollbarSlider.activeBackground": "#388E3C50",
-      "editorSuggestWidget.highlightForeground": "#388E3C",
-      "textLink.foreground": "#388E3C",
-      "progressBar.background": "#388E3C",
-      "pickerGroup.foreground": "#388E3C",
-      "tab.activeBorder": "#388E3C",
-      "notificationLink.foreground": "#388E3C",
-      "editorWidget.resizeBorder": "#388E3C",
-      "editorWidget.border": "#388E3C",
-      "settings.modifiedItemIndicator": "#388E3C",
-      "settings.headerForeground": "#388E3C",
-      "panelTitle.activeBorder": "#388E3C",
-      "breadcrumb.activeSelectionForeground": "#388E3C",
-      "menu.selectionForeground": "#388E3C",
-      "menubar.selectionForeground": "#388E3C"
+    "activityBarBadge.background": "#388E3C",
+    "list.activeSelectionForeground": "#388E3C",
+    "list.inactiveSelectionForeground": "#388E3C",
+    "list.highlightForeground": "#388E3C",
+    "scrollbarSlider.activeBackground": "#388E3C50",
+    "editorSuggestWidget.highlightForeground": "#388E3C",
+    "textLink.foreground": "#388E3C",
+    "progressBar.background": "#388E3C",
+    "pickerGroup.foreground": "#388E3C",
+    "tab.activeBorder": "#388E3C",
+    "notificationLink.foreground": "#388E3C",
+    "editorWidget.resizeBorder": "#388E3C",
+    "editorWidget.border": "#388E3C",
+    "settings.modifiedItemIndicator": "#388E3C",
+    "settings.headerForeground": "#388E3C",
+    "panelTitle.activeBorder": "#388E3C",
+    "breadcrumb.activeSelectionForeground": "#388E3C",
+    "menu.selectionForeground": "#388E3C",
+    "menubar.selectionForeground": "#388E3C"
   },
-  "materialTheme.accent": "Breaking Bad",
   "editor.minimap.enabled": false,
   "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": true,
@@ -30,64 +29,92 @@
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontWeight": "500",
   "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact"
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   "terminal.integrated.shell.osx": "zsh",
   "terminal.integrated.fontSize": 14,
   "latex-workshop.latex.clean.fileTypes": [
-      "*.aux",
-      "*.bbl",
-      "*.blg",
-      "*.idx",
-      "*.ind",
-      "*.lof",
-      "*.lot",
-      "*.out",
-      "*.toc",
-      "*.acn",
-      "*.acr",
-      "*.alg",
-      "*.glg",
-      "*.glo",
-      "*.thm",
-      "*.gls",
-      "*.ist",
-      "*.fls",
-      "*.gz",
-      "*.log",
-      "*.fdb_latexmk"
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.thm",
+    "*.gls",
+    "*.ist",
+    "*.fls",
+    "*.gz",
+    "*.log",
+    "*.fdb_latexmk"
   ],
-  "workbench.statusBar.feedback.visible": false,
   "C_Cpp.updateChannel": "Insiders",
   "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "latex-workshop.latex.autoBuild.run": "never",
   "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.foldingStrategy": "indentation",
   "explorer.confirmDelete": false,
   "files.autoSaveDelay": 5000,
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "[cpp]": {
-      "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "explorer.confirmDragAndDrop": false,
+  "editor.foldingStrategy": "indentation",
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.view.pdf.viewer": "browser",
+  "editor.largeFileOptimizations": false,
+  "editor.suggestSelection": "first",
+  "python.jediEnabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rust-client.enableMultiProjectSetup": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "rust-client.channel": "nightly",
+  "rust-client.disableRustup": true,
+  "editor.fontSize": 13,
+  "nasc-touchbar.addCursorBelow": false,
+  "nasc-touchbar.toggleSidebar": true,
+  "nasc-touchbar.rename": false,
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "Blueberry dark theme",
+  "python.pythonPath": "/usr/local/bin/python3",
+  "java.semanticHighlighting.enabled": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.clang_format_path": "/usr/local/bin/clang-format"
 }
